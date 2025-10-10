@@ -1,0 +1,17 @@
+.heading1 {
+  color: red;
+  font-size: 30px;
+}
+.first {
+  text-decoration: underline green;
+}
+#logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#dot {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
