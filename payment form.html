@@ -4,8 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>payment form</title>
+    <link rel="stylesheet" href="crv.css">
   </head>
   <body>
+  <div class="links">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="my cv.html">MY CV</a></li>
+    <li><a href="blogpost.html">BLOGPOST</a></li>
+    <li><a href="FRIENDS'S LIST.html">FRIEND'S LIST</a></li>
+    <li><a href="TIMETABLE.html">TIMETABLE</a></li>
+    <li><a href="tables.html">CONTACTS</a></li>
+  </div>
     <form action="" method="post">
       <h4>Please enter your membership details</h4>
       <label>Firstname : </label>
@@ -14,6 +23,11 @@
       <input type="text" name="lastname"><br><br>
       <label>Email Address : </label>
       <input type="email" name="email"><br><br>
+      <label>Password:</label>
+      <input type="password"><br><br>
+      <Label>Gender:</Label>
+      <input type="radio" name="gender" value="male"> <label>MALE</label>
+      <input type="radio" name="gender" value="female"> <label>FEMALE</label>
       <p>Payment method :
         <input type="radio" name="payment" value="cash"> <label>Cash</label>
         <input type="radio" name="payment" value="cheque"> <label>Cheque</label>

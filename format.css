@@ -1,28 +1,24 @@
-h6{
-         color: blueviolet;
-         text-decoration: burlywood underline;
-
-      }
- .links{
-    display: flex;
-    list-style-type: none;
-    background-color: rgb(10, 226, 10);
-    color: green;
-    padding: 20px;
-    flex-wrap: wrap;
+h6 {
+  color: blueviolet;
+  text-decoration: burlywood underline;
 }
-.links li{
-     padding-right: 30px;
-
+.links {
+  display: flex;
+  list-style-type: none;
+  background-color: rgb(10, 226, 10);
+  padding: 20px;
+  flex-wrap: wrap;
 }
-.links a{
-    color: white;
-    padding-top: 20px;
-    text-decoration: none;
-    font-size: 20px;
-
+.links li {
+  padding-right: 30px;
 }
-.links a:hover{
-    background-color: black  ;
-    color: rgb(100, 199, 206);
-}   
+.links a {
+  color: white;
+  padding-top: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.links a:hover {
+  background-color: black;
+  color: rgb(100, 199, 206);
+}
